@@ -4,20 +4,25 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
+  <body style="background-color:gray">
 
     <script type="text/javascript">
 
       // Kello on 9:30.30
-      var tunnit = 9;
-      var minuutit = 30;
+      var tunnit = 10;
+      var minuutit = 47;
       var sekunnit = 30;
 
       // Muuntaa sekunneiksi
       var lasketunnit = (tunnit * 3600);
       var laskeminuutit = (minuutit * 60)
 
-      alert (lasketunnit+laskeminuutit+sekunnit);
+      var laskenta = (lasketunnit+laskeminuutit+sekunnit)
+
+      alert ('Tänään on kulunut '+laskenta+' Sekuntia');
+
+
+
     </script>
 
   </body>
