@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  background-color: #5FBB97;
+  font-family: 'Alata', sans-serif;
+  font-size: 20px;
+}
+
+form {
+  display: inline-block;
+}
+
+.nappi {
+  border: 0;
+  border-radius: 5px;
+  width: 125px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+
+.kirjotus {
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  height: 25px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lomake</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <form class="laatikko">
+      <p>Tunnit</p>
+      <input type="text" id="tunnit" class="kirjotus">
+      <p>Minuutit</p>
+      <input type="text" id="minuutit" class="kirjotus"> <br>
+      <button type="button" name="button" class="nappi" onClick="laskeMinuutit()">Laske</button>
+      <button onClick="window.location.reload();" class="nappi">Alusta</button>
+
+    </form>
+
+    <p>0 minuuttia</p>
+  </body>
+</html>
