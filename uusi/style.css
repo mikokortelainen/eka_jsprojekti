@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #5465FF;
+  background-color: #272727;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -8,6 +8,12 @@ form {
   margin-top: 10%;
   font-size: 20px;
   display: inline-block;
+
+  width: 1400px;
+  background-color: #FED766;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 75px;
+  border-style: dotted;
 }
 
 button {
