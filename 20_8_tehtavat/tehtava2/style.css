@@ -1,0 +1,10 @@
+body {
+text-align: center;
+font-family: 'Noto Sans', sans-serif;
+color: white;
+background-color: #4059AD;
+}
+
+form {
+  display: inline-inline-block;
+}
